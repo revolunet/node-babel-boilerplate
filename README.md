@@ -9,7 +9,7 @@ Basic Node, Babel, Tape boilerplate
  - babel for ES6/ES7
  - compile to ES5 in `/dist`
  - tape tests
- - use [node-readme](revolunet/node-readme)
+ - use [node-readme](http://github.com/revolunet/node-readme)
 
 ## Install
 
