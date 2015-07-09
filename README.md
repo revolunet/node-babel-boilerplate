@@ -11,10 +11,21 @@ Basic Node, Babel, Tape boilerplate
  - tape tests
  - use [node-readme](http://github.com/revolunet/node-readme)
 
-## Install
+## QuickStart
 
-`npm install --save node-babel-boilerplate`
 
+clone the repo and cleanup in a "myProject" folder
+
+```sh
+git clone  --depth=1 http://github.com/revolunet/node-babel-boilerplate myProject
+cd myProject
+# remove current project history
+rm -rf ./.git
+# init a new git repo
+git init
+# init npm dependencies
+npm i
+```
 
 ## Scripts
 
