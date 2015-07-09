@@ -29,8 +29,9 @@
   "dependencies": {},
   "devDependencies": {
     "babel-tape-runner": "1.1.0",
+    "es6-template-strings": "1.0.0",
+    "node-readme": "0.1.3",
     "tap-spec": "4.0.2",
-    "tape": "4.0.0",
-    "node-readme": "0.1.3"
+    "tape": "4.0.0"
   }
 }
