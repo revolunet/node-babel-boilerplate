@@ -1,6 +1,6 @@
 {
   "name": "node-babel-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Basic Node, Babel, Tape boilerplate",
   "license": "MIT",
   "repository": "revolunet/node-babel-boilerplate",
