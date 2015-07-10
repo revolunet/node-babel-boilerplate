@@ -6,3 +6,8 @@ test("should fail", (t) => {
 	t.equal(1, 2);
 	t.end();
 });
+
+test("should work", (t) => {
+	t.equal(1, 1);
+	t.end();
+});
