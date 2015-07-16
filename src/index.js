@@ -1,5 +1,4 @@
 
-
-export default function pouet() {
-    return 'pouet';
+export default function hello(name) {
+  return `hello, ${name}`;
 }
