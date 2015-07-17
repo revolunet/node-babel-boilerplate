@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-Object.defineProperty(exports, '__esModule', {
-    value: true
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
-exports['default'] = pouet;
+exports["default"] = hello;
 
-function pouet() {
-    return 'pouet';
+function hello(name) {
+  return "hello, " + name;
 }
 
-module.exports = exports['default'];
+module.exports = exports["default"];
