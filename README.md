@@ -39,11 +39,9 @@ Package | Version | Dev
 [babel](https://www.npmjs.com/package/babel) | 5.6.23 | ✔
 [babel-eslint](https://www.npmjs.com/package/babel-eslint) | 3.1.23 | ✔
 [babelify](https://www.npmjs.com/package/babelify) | 6.1.2 | ✔
-[es6-template-strings](https://www.npmjs.com/package/es6-template-strings) | 1.0.0 | ✔
 [eslint](https://www.npmjs.com/package/eslint) | 1.0.0-rc-1 | ✔
 [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) | 0.0.6 | ✔
-[node-readme](https://www.npmjs.com/package/node-readme) | 0.1.7 | ✔
-[semistandard](https://www.npmjs.com/package/semistandard) | 6.1.2 | ✔
+[node-readme](https://www.npmjs.com/package/node-readme) | 0.1.8 | ✔
 [tap-spec](https://www.npmjs.com/package/tap-spec) | 4.0.2 | ✔
 [tape](https://www.npmjs.com/package/tape) | 4.0.0 | ✔
 [zuul](https://www.npmjs.com/package/zuul) | 3.2.0 | ✔
