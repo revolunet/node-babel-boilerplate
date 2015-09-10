@@ -16,7 +16,8 @@
     "readme": "node ./node_modules/node-readme/bin/node-readme.js",
     "test": "find ./spec -iname '*.spec.js' -exec ./node_modules/.bin/babel-node {} \\; | ./node_modules/.bin/tap-spec",
     "zuul": "./node_modules/zuul/bin/zuul -- spec/**/*.spec.js",
-    "build": "babel -d ./dist ./src"
+    "build": "babel -d ./dist ./src",
+    "publish": "git push --tags && npm publish"
   },
   "main": "dist/index.js",
   "keywords": [
