@@ -1,8 +1,15 @@
 'use strict';
 
-var test = require('tape');
+let test = require('tape');
+
+import hello from '../dist';
 
 test("should work too", (t) => {
-	t.equal(2, 2, '2 should equal 2');
-	t.end();
+
+    let expected = 'hello, world';
+    let result = hello('world');
+
+    t.equal(result, expected, `${result} should equal ${expected}`);
+    t.end();
+
 });
