@@ -19,18 +19,23 @@ Create a new a folder then
 
 ```sh
 curl -fsSL https://github.com/revolunet/node-babel-boilerplate/archive/master.tar.gz | tar -xz --strip-components=1 node-babel-boilerplate-master
-npm i
+npm i 
 git init
 ```
 
-Edit `package.json` and the `LICENSE`, then run `npm run readme` to update your README.
+## Wokflow
+
+- edit your code and commit
+- run `npm run build`
+- apply semver with `npm version major|minor|patch`
+- `npm run publish` to push to github and npm
 
 ## Scripts
 
  - **npm run readme** : `node ./node_modules/.bin/node-readme`
  - **npm run test** : `./node_modules/.bin/babel-tape-runner ./spec/**/*.spec.js | ./node_modules/.bin/tap-spec`
  - **npm run zuul** : `./node_modules/.bin/zuul --local --open -- spec/**/*.spec.js`
- - **npm run build** : `./node_modules/.bin/babel -d ./dist ./src`
+ - **npm run build** : `npm run test && npm run readme && ./node_modules/.bin/babel -d ./dist ./src`
  - **npm run publish** : `git push --tags && npm publish`
 
 ## Dependencies

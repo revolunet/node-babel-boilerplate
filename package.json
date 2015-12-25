@@ -1,7 +1,7 @@
 {
   "name": "node-babel-boilerplate",
   "version": "0.3.1",
-  "description": "Lightweight node+babel+tape boilerplate",
+  "description": "Lightweight node + babel6 + tape boilerplate",
   "license": "MIT",
   "repository": "revolunet/node-babel-boilerplate",
   "author": {
@@ -16,7 +16,7 @@
     "readme": "node ./node_modules/.bin/node-readme",
     "test": "./node_modules/.bin/babel-tape-runner ./spec/**/*.spec.js | ./node_modules/.bin/tap-spec",
     "zuul": "./node_modules/.bin/zuul --local --open -- spec/**/*.spec.js",
-    "build": "./node_modules/.bin/babel -d ./dist ./src",
+    "build": "npm run test && npm run readme && ./node_modules/.bin/babel -d ./dist ./src",
     "publish": "git push --tags && npm publish"
   },
   "main": "dist/index.js",
@@ -24,7 +24,8 @@
     "node",
     "babel",
     "test",
-    "tape"
+    "tape",
+    "boilerplate"
   ],
   "files": [
     "dist/*",

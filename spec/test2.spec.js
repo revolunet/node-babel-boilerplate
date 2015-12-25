@@ -2,7 +2,7 @@
 
 let test = require('tape');
 
-import hello from '../dist';
+import hello from '../src';
 
 test("should work too", (t) => {
 
