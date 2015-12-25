@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/node-babel-boilerplate.svg) ![license](https://img.shields.io/npm/l/node-babel-boilerplate.svg) ![github-issues](https://img.shields.io/github/issues/revolunet/node-babel-boilerplate.svg) ![Circle CI build status](https://circleci.com/gh/revolunet/node-babel-boilerplate.svg?style=svg)
 
-Lightweight node+babel+tape boilerplate
+Lightweight node + babel6 + tape boilerplate
 
 ![nodei.co](https://nodei.co/npm/node-babel-boilerplate.png?downloads=true&downloadRank=true&stars=true)
 
@@ -36,7 +36,7 @@ git init
  - **npm run test** : `./node_modules/.bin/babel-tape-runner ./spec/**/*.spec.js | ./node_modules/.bin/tap-spec`
  - **npm run zuul** : `./node_modules/.bin/zuul --local --open -- spec/**/*.spec.js`
  - **npm run build** : `npm run test && npm run readme && ./node_modules/.bin/babel -d ./dist ./src`
- - **npm run publish** : `git push --tags && npm publish`
+ - **npm run publish** : `git push && git push --tags && npm publish`
 
 ## Dependencies
 
@@ -46,6 +46,7 @@ Package | Version | Dev
 [babel-eslint](https://www.npmjs.com/package/babel-eslint) | * | ✔
 [babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) | * | ✔
 [babel-tape-runner](https://www.npmjs.com/package/babel-tape-runner) | * | ✔
+[babelify](https://www.npmjs.com/package/babelify) | 7.2.0 | ✔
 [eslint](https://www.npmjs.com/package/eslint) | * | ✔
 [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) | * | ✔
 [node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.8 | ✔

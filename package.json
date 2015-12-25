@@ -17,7 +17,7 @@
     "test": "./node_modules/.bin/babel-tape-runner ./spec/**/*.spec.js | ./node_modules/.bin/tap-spec",
     "zuul": "./node_modules/.bin/zuul --local --open -- spec/**/*.spec.js",
     "build": "npm run test && npm run readme && ./node_modules/.bin/babel -d ./dist ./src",
-    "publish": "git push --tags && npm publish"
+    "publish": "git push && git push --tags && npm publish"
   },
   "main": "dist/index.js",
   "keywords": [
@@ -37,6 +37,7 @@
     "babel-eslint": "*",
     "babel-preset-es2015": "*",
     "babel-tape-runner": "*",
+    "babelify": "7.2.0",
     "eslint": "*",
     "eslint-config-airbnb": "*",
     "node-readme": "^0.1.8",
