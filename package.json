@@ -26,6 +26,11 @@
     "test",
     "tape"
   ],
+  "files": [
+    "dist/*",
+    "README.md",
+    "LICENCE"
+  ],
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-eslint": "*",
