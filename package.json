@@ -1,6 +1,6 @@
 {
   "name": "node-babel-boilerplate",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Lightweight node+babel+tape boilerplate",
   "license": "MIT",
   "repository": "revolunet/node-babel-boilerplate",
